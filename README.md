@@ -23,7 +23,7 @@
 
 ### Overview
 
-_**The-News-Room** is the only website you'll visit for your news needs! It updates and displays current news feeds from different websites all in one place._
+_**The-News-Room** is the only website you'll visit for your news needs! It updates and displays current news feeds from different websites all in one place. It utilizes the NewsAPI which is one of the best and most reliable news sources for all your news feed needs. It's simple layout structure makes it easy to read and navigate through different articles._
 
 <br>
 
@@ -79,7 +79,6 @@ _**The-News-Room** MVP consists of having an up-to-date API that displays curren
 
 #### Component Hierarchy
 
-> Use this section to define your React components and the data architecture of your app.
 
 ```
 src
@@ -91,10 +90,9 @@ src
       |__ mockups
 |__ components/
       |__ Header.jsx
-      |__ Hero.jsx
-      |__ Ipsum.jsx
-      |__ Lorem.jsx
-      |__ CTA.jsx
+      |__ Home.jsx
+      |__ App.jsx
+      |__ ArticleList.jsx
       |__ Footer.jsx
 ```
 
