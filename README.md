@@ -73,7 +73,7 @@ _**The-News-Room** MVP consists of having an up-to-date API that displays curren
 
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
-| WeatherAPI |      yes      | _example.com_ | _example.com/mickeymouse?s=movies&t=10_ |
+| NewsAPI |      yes      | _cnn.com_ | _https://www.cnn.com/2020/04/26/politics/us-election-2020-week-ahead/index.html_ |
 
 <br>
 
@@ -116,15 +116,18 @@ src
 
 #### Component Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above. 
->
-> Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Design/Basic Structure   |    M     |     3 hrs      |     2 hrs     |    2 hrs    |
+| Locate API |    H     |     2 hrs      |     1 hrs     |     1 hrs     |
+| Wireframing |   H     |    3 hrs   |   2 hrs   |   2 hrs   |
+| Pseudocoding  |   M    |    4 hrs   |   TBD    |    TBD   |
+| Design (CSS) |   H    |    4 hrs    |    TBD    |    TBD    |
+| React Coding  |   H   |    6 hrs    |   TBD   |   TBD   |
+| MVP   |   H   |   5 hrs   |   TBD    |    TBD   |
+| Post MVP  |  M  |    4 hrs   |    TBD   |    TBD   |
+| TOTAL               |          |     31 hrs      |     TBD     |     TBD     |
 
 <br>
 
@@ -140,10 +143,12 @@ src
 
 ### Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
 
-- _Add user account and auth capabilities._
-- _Utilize the Giphy API to welcome new users with funny gifs._
+- Implement Search function
+- Include effects (hover, page, etc.)
+- Include animation with new page load
+- Save articles to a bookmark/reading list
+- Have catagories such as specific websites and topics
 
 <br>
 
