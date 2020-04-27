@@ -25,6 +25,12 @@
 
 _**The-News-Room** is the only website you'll visit for your news needs! It updates and displays current news feeds from different websites all in one place. It utilizes the NewsAPI which is one of the best and most reliable news sources for all your news feed needs. It's simple layout structure makes it easy to read and navigate through different articles._
 
+
+NewsAPI:
+
+https://newsapi.org/v2/everything
+
+
 <br>
 
 ### Wireframes
@@ -51,7 +57,7 @@ _**The-News-Room** MVP consists of having an up-to-date API that displays curren
 - Locate and obtain working API with up-to-date news articles
 - Build app in with a column-style structure
 - Present articles in cascading style
-
+- Implement components from Storybook
 
 <br>
 
@@ -68,8 +74,6 @@ _**The-News-Room** MVP consists of having an up-to-date API that displays curren
 <br>
 
 #### Data
-
-> Use the Data Section to define the API(s) you will be consuming for your project, inluding sample URL queries.
 
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
@@ -91,6 +95,7 @@ src
 |__ components/
       |__ Header.jsx
       |__ Home.jsx
+      |__ Categories.jsx
       |__ App.jsx
       |__ ArticleList.jsx
       |__ Footer.jsx
@@ -104,11 +109,12 @@ src
 
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
-|  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
-| Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
-|    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
+|    Header    | functional |   n   |   n   | _The Header will contain the navigation and logo._               |
+|   Home    |    functional |  n    |   n   | _The Homepage will display articles in cascading format._
+|  Categories  | functional |   n   |   n   | _The Categories page will provide a link to each of the articles._       |
+|   App    |   class    |   y   |   n   | _The App will render the posts using cards in flexbox._      |
+| ArticleList | functional |   n   |   y   | _The ArticleList will render the article info via hooks._                 |
+|    Footer    | functional |   n   |   n   | _The Footer will show info about me and a link to my portfolio._ |
 
 <br>
 
