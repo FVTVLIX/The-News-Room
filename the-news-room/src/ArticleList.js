@@ -5,13 +5,16 @@ export default function ArticleList({ articles }) {
   return (
     <>
       {articles.map(article =>
-        <div key={articles.title}>
+        <div key={article.title}>
           <Link
-            to={"/article/" + articles.title}>
-            {articles.title}
+            to={"/article/" + article.url}>
+            {article.title}
           </Link>
         </div>
       )}
     </>
   )
 }
+
+
+// guard operator
