@@ -95,7 +95,7 @@ src
 |__ components/
       |__ Header.jsx
       |__ Home.jsx
-      |__ Categories.jsx
+      |__ ArticleDetail.jsx
       |__ App.jsx
       |__ ArticleList.jsx
       |__ Footer.jsx
@@ -111,7 +111,7 @@ src
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |    Header    | functional |   n   |   n   | _The Header will contain the navigation and logo._               |
 |   Home    |    functional |  n    |   n   | _The Homepage will display articles in cascading format._
-|  Categories  | functional |   n   |   n   | _The Categories page will provide a link to each of the articles._       |
+|  ArticleDetail  | functional |   n   |   n   | _The ArticleDetail page will provide a link to each of the articles._       |
 |   App    |   class    |   y   |   n   | _The App will render the posts using cards in flexbox._      |
 | ArticleList | functional |   n   |   y   | _The ArticleList will render the article info via hooks._                 |
 |    Footer    | functional |   n   |   n   | _The Footer will show info about me and a link to my portfolio._ |

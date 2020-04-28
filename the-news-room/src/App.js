@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { Link, Route } from 'react-router-dom'
 import './App.css';
 import axios from 'axios'
+import ArticleList from './ArticleList'
+import ArticleDetail from './ArticleDetail'
 
 function App() {
 
@@ -20,9 +23,26 @@ function App() {
 
 
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <div className="header">
+        <header>
+          <Link
+            to="/">
+            The News Room
+          </Link>
+        </header>
+      </div>
+      <main>
+        <div className="body">
+          <Route exact path="/">
+            <ArticleList articles={articles} />
+          </Route>
+          <Route path="/article/:id">
+            <ArticleDetail articles={articles} />
+            </Route>
+        </div>
+      </main>
+    </>
   );
 }
 
