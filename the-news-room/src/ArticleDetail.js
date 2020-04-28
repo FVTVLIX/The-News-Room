@@ -3,21 +3,21 @@ import { useParams } from 'react-router-dom'
 
 export default function ArticleDetail({ articles }) {
 
-  // const { id } = useParams()
+  const { id } = useParams()
 
-  // const article = articles.find(article => article.id === id)
+  const article = articles.find(article => article.source.id === id)
 
-  // console.log(article)
+  console.log(article)
 
   return (
     <div>
-      {/* <h1>{articles.title}</h1>
+      <h1>{articles.data.title}</h1>
       <img
         src={articles.urlToImage[0].url}
         alt=""
         height="200"
         />
-        */}
+       
     </div>
   )
 }

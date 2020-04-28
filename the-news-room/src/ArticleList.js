@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom'
 export default function ArticleList({ articles }) {
   return (
     <>
-      {/* {articles.map(article =>
-        <div key={articles.data.source.name}>
+      {articles.map(article =>
+        <div key={articles.title}>
           <Link
-            to={"/article/" + articles.data}>
-            {articles.data}
+            to={"/article/" + articles.title}>
+            {articles.title}
           </Link>
         </div>
-      )} */}
+      )}
     </>
   )
 }
