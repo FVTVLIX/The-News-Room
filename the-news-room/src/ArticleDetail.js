@@ -5,23 +5,42 @@ export default function ArticleDetail({ articles }) {
 
   const { id } = useParams()
 
-  const article = articles.find(article => articles.id === id)
+  const article = articles[id]
 
   console.log(article)
 
   return (
     <>
       <div className='articletitle'>
-        {/* <h1>{article.title}</h1> */}
+        <h1>
+          {article.title}
+        </h1>
       </div>
 
-      {/* <div className='articleimage'>
+      <div className='publish-date'>
+        <h2>
+          {article.publishedAt}
+        </h2>
+      </div>
+
+      <div className='articleimage'>
         <img
-          src={articles.urlToImage[0].url}
-          alt=""
+          src={article.urlToImage}
+          alt="article-image"
           height="200"
         />
-      </div> */}
+      </div>
+
+      <div className="content">
+        <p>
+          {article.content}
+        </p>
+
+        <div className='link'>
+          {article.url}
+        </div>
+        
+      </div>
     </>
   )
 }
