@@ -1,0 +1,27 @@
+.articleimage {
+  position: relative;
+  width: 100%; 
+  margin: auto; 
+  text-align: center;
+}
+
+.articletitle {
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 0 100px 0 100px;
+  text-align: center;
+}
+
+.content {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin: auto;
+  padding: 10px 200px 10px 200px;
+}
+
+.publish-date {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
