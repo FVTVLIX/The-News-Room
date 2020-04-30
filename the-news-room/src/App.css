@@ -1,7 +1,7 @@
+
 .App {
   text-align: center;
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -25,9 +25,27 @@
 }
 
 .header {
-  color: black;
-  float: left;
+  background: linear-gradient(180deg, rgba(73,73,73,1) 0%, rgba(35,40,48,1) 100%);
+  border-radius: 0px 0px 7px 7px;
+  color: white;
+  padding: 20px 550px;
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   font-size: 30px;
   font-family: 'Playfair Display', serif;
-
+  margin: 0 auto;
+  position: relative;
+  /* text-decoration: none; */
 }
+
+.body {
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+
+

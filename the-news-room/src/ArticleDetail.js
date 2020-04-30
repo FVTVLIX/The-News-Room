@@ -1,5 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
+import './ArticleDetail.css'
 
 export default function ArticleDetail({ articles }) {
 
@@ -12,9 +13,7 @@ export default function ArticleDetail({ articles }) {
   return (
     <>
       <div className='articletitle'>
-        <h1>
-          {article.title}
-        </h1>
+        <h1>{article.title}</h1>
       </div>
 
       <div className='publish-date'>
@@ -27,7 +26,6 @@ export default function ArticleDetail({ articles }) {
         <img
           src={article.urlToImage}
           alt="article-image"
-          height="200"
         />
       </div>
 
@@ -35,12 +33,12 @@ export default function ArticleDetail({ articles }) {
         <p>
           {article.content}
         </p>
-
-        <div className='link'>
-          {article.url}
-        </div>
-        
       </div>
+
+      <div className='link'>
+        {article.url}
+      </div>
+
     </>
   )
 }
