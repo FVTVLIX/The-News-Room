@@ -38,10 +38,9 @@ export default function ArticleDetail({ articles }) {
         <p>
           {article.content}
         </p>
-      </div>
-
-      <div className='link'>
-        {article.url}
+        <a target='_blank'
+        rel="noopener noreferrer"
+        href={article.url}>Read More</a>
       </div>
 
       {/* <Link
@@ -51,9 +50,10 @@ export default function ArticleDetail({ articles }) {
           type='button'>Read More</button>
       </Link> */}
 
-      <a target='_blank'
+      {/* <a target='_blank'
         rel="noopener noreferrer"
         href={article.url}>Read More</a>
+       */}
     </>
   )
 }

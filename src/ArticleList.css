@@ -2,12 +2,12 @@
 .articlebox {
   background: linear-gradient(180deg, rgba(73,73,73,1) 0%, rgba(35,40,48,1) 100%);
   padding: 20px;
-  margin: 20px auto;
+  margin: 30px auto;
   border-radius: 7px;
   width: 350px;
   /* flex-direction: row;
   flex-wrap: wrap; */
-  display: block;
+  /* display: block; */
 }
 
 .author {
@@ -19,6 +19,10 @@
 .description {
   color: white;
   font-family: 'Playfair Display';
+}
+
+h2 {
+  text-align: center;
 }
 
 .frontImage {

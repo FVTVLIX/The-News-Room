@@ -17,11 +17,13 @@
   font-family: 'Roboto';
   font-size: 20px;
   margin: auto;
-  padding: 10px 200px 10px 200px;
+  padding: 10px 200px 100px 200px;
+  text-align: center;
 }
 
 .publish-date {
   font-family: 'Oswald', sans-serif;
   font-size: 10px;
   text-align: center;
+  margin: auto;
 }
