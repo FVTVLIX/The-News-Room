@@ -63,7 +63,7 @@ _**The-News-Room** MVP consists of having an up-to-date API that displays curren
 
 #### Libraries
 
-> Use this section to list all supporting libraries and their role in the project.
+<!-- > Use this section to list all supporting libraries and their role in the project. -->
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
@@ -104,7 +104,7 @@ src
 
 #### Component Breakdown
 
-> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
+<!-- > Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components. -->
 
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
