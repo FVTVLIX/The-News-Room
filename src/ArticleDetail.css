@@ -1,7 +1,7 @@
 .articleimage {
   position: relative;
   width: 100%; 
-  margin: auto; 
+  margin: 0 auto; 
   text-align: center;
 }
 
@@ -9,7 +9,7 @@
   font-family: 'Abril Fatface', sans-serif;
   font-size: 40px;
   margin: 0 auto;
-  padding: 0 100px 0 100px;
+  padding: 20px 100px 0 100px;
   text-align: center;
 }
 
@@ -26,4 +26,40 @@
   font-size: 10px;
   text-align: center;
   margin: auto;
+}
+
+img {
+  width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .articleimage {
+    position: relative;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .articletitle {
+    font-size: 20px;
+    padding: 20px 30px ;
+  }
+
+  .content {
+    font-size: 30px;
+    padding: 40px 40px 100px 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .articletitle {
+    font-size: 15px;
+    padding: 30px;
+  }
+
+  .content {
+    font-size: 20px;
+  }
+
 }

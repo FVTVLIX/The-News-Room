@@ -2,12 +2,12 @@
 .articlebox {
   background: linear-gradient(180deg, rgba(73,73,73,1) 0%, rgba(35,40,48,1) 100%);
   padding: 20px;
-  margin: 30px auto;
+  margin: 40px auto;
   border-radius: 7px;
   width: 350px;
-  /* flex-direction: row;
-  flex-wrap: wrap; */
-  /* display: block; */
+  -webkit-box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.65);
+  box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.65);
 }
 
 .author {
@@ -44,4 +44,16 @@ h2 {
   color: white;
   font-family: 'Abril Fatface';
   margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+
+  .articlebox {
+    position: relative;
+    width: 300px;
+  }
+
+  .frontImage {
+    width: 300px;
+  }
 }
