@@ -90,14 +90,20 @@ src
       |__ Elements.css
       |__ Elements.js
       |__ Elements.stories.js
+      |__ Footer.stories.js
 |__ components/
       |__ Header.js
       |__ Home.js
       |__ ArticleDetail.js
+      |__ ArticleDetail.css
       |__ App.js
+      |__ App.css
       |__ Index.js
+      |__ Index.css
       |__ ArticleList.js
+      |__ ArticleList.css
       |__ Footer.js
+      |__ Footer.css
 ```
 
 <br>
