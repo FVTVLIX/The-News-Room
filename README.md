@@ -136,8 +136,6 @@ src
 
 #### Helper Functions
 
-> Use this section to document all helper functions– generic functions that can be reused in other applications.
-
 |  Function  | Description                                |
 | :--------: | :----------------------------------------- |
 | Map | _Mapping and listing details for lists._ |
@@ -155,10 +153,10 @@ src
 
 <br>
 
-***
+<!-- ***
 
 ## Project Delivery
 
 ### Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+> Use this section to include a brief code snippet of functionality that you are proud of and a brief description. -->
