@@ -7,6 +7,7 @@ import Elements from './Elements'
 
 storiesOf('Elements', module)
   .add('Header', () => <Elements label="The News Room" style={headerLayout} />) 
+  .add('Footer', () => <Elements label="Copyright © Andres Gonzalez. Powered by NewsAPI" style={footerLayout} />) 
   .add('Search', () => <Elements label="Search" style={searchStyle} />) 
   .add('Read More', () => <Elements label="Read More" style={readMoreStyle} />) 
   .add('Article Backdrop', () => <Elements style={backDropStyle} />) 
@@ -17,6 +18,17 @@ storiesOf('Elements', module)
 const headerLayout = {
   background: "linear-gradient(180deg, rgba(73,73,73,1) 0%, rgba(35,40,48,1) 100%)",
   borderRadius: '0px 0px 7px 7px',
+  color: 'white',
+  fontFamily: 'Playfair Display',
+  padding: '50px 550px',
+  fontSize: '35px',
+  textTransform: 'uppercase',
+  letterSpacing: '2px',
+}
+
+const footerLayout = {
+  background: "linear-gradient(180deg, rgba(73,73,73,1) 0%, rgba(35,40,48,1) 100%)",
+  borderRadius: '7px 7px 0px 0px',
   color: 'white',
   fontFamily: 'Playfair Display',
   padding: '50px 550px',

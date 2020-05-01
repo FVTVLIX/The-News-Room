@@ -5,7 +5,7 @@ import axios from 'axios'
 import ArticleList from './ArticleList'
 import ArticleDetail from './ArticleDetail'
 import Categories from './Categories'
-
+import Footer from './Footer'
 
 
 function App() {
@@ -53,6 +53,9 @@ function App() {
         </div>
         
       </main>
+      <footer>
+        <Footer/>
+      </footer>
     </>
   );
 }
