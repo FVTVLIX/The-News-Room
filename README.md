@@ -86,19 +86,18 @@ _**The-News-Room** MVP consists of having an up-to-date API that displays curren
 
 ```
 src
-|__ assets/
-      |__ data-tests
-      |__ fonts
-      |__ graphics
-      |__ images
-      |__ mockups
+|__ SBElements/
+      |__ Elements.css
+      |__ Elements.js
+      |__ Elements.stories.js
 |__ components/
-      |__ Header.jsx
-      |__ Home.jsx
-      |__ ArticleDetail.jsx
-      |__ App.jsx
-      |__ ArticleList.jsx
-      |__ Footer.jsx
+      |__ Header.js
+      |__ Home.js
+      |__ ArticleDetail.js
+      |__ App.js
+      |__ Index.js
+      |__ ArticleList.js
+      |__ Footer.js
 ```
 
 <br>
@@ -126,10 +125,10 @@ src
 | Design/Basic Structure   |    M     |     3 hrs      |     2 hrs     |    2 hrs    |
 | Locate API |    H     |     2 hrs      |     1 hrs     |     1 hrs     |
 | Wireframing |   H     |    3 hrs   |   2 hrs   |   2 hrs   |
-| Pseudocoding  |   M    |    4 hrs   |   TBD    |    TBD   |
-| Design (CSS) |   H    |    4 hrs    |    TBD    |    TBD    |
-| React Coding  |   H   |    6 hrs    |   TBD   |   TBD   |
-| MVP   |   H   |   5 hrs   |   TBD    |    TBD   |
+| Pseudocoding  |   M    |    4 hrs   |   2 hrs    |    2 hrs   |
+| Design (CSS) |   H    |    4 hrs    |    5 hrs    |    5 hrs    |
+| React Coding  |   H   |    6 hrs    |   9 hrs   |   9 hrs   |
+| MVP   |   H   |   5 hrs   |   4 hrs    |    4 hrs   |
 | Post MVP  |  M  |    4 hrs   |    TBD   |    TBD   |
 | TOTAL               |          |     31 hrs      |     TBD     |     TBD     |
 
@@ -141,7 +140,7 @@ src
 
 |  Function  | Description                                |
 | :--------: | :----------------------------------------- |
-| Capitalize | _Lorem ipsum dolor sit amet, consectetur._ |
+| Map | _Mapping and listing details for lists._ |
 
 <br>
 
@@ -163,7 +162,3 @@ src
 ### Code Showcase
 
 > Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
-
-### Code Issues & Resolutions
-
-> Use this section to list of all major issues encountered and their resolution, if you'd like.
