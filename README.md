@@ -25,6 +25,8 @@
 
 _**The-News-Room** is the only website you'll visit for your news needs! It updates and displays current news feeds from different websites all in one place. It utilizes the NewsAPI which is one of the best and most reliable news sources for all your news feed needs. It's simple layout structure makes it easy to read and navigate through different articles._
 
+https://elegant-mahavira-ed136a.netlify.app/
+
 
 NewsAPI:
 
